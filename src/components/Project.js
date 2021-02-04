@@ -54,8 +54,8 @@ const Project = () => {
               <p className="my-6 text-lg text-gray-700 leading-relaxed">{project.description}
               </p>
               <a href={project.link} rel="noopener noreferrer" target="_blank" className="text-red-500 font-bold hover:underline hover:text-red-400 text-xl">
-                  View The Project{" "}
-              <span role="img" aria-label="right pointer">👉</span>
+                 👉 View The Project{" "}
+              <span role="img" aria-label="right pointer"></span>
                </a>
             </div>
           </article>
