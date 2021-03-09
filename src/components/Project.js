@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import sanityClient from "../client";
+import image from "../background.jpg";
 
 const Project = () => {
   const [projectData, setProjectData] = useState(null);
@@ -22,7 +23,8 @@ const Project = () => {
   }, []);
 
   return (
-    <main className="bg-green-100 min-h-screen p-12">
+    <main>
+       <img  src={image} alt ="Background" className="absolute object cover w-full h-full"/>
       <section className="container mx-auto">
         <h1 className="text-5xl flex justify-center cursive">My Projects</h1>
         <h2 className="text-lg text-gray-600 flex justify-center mb-12">
