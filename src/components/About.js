@@ -34,7 +34,7 @@ const About = () => {
         <section className="bg-white-100 bg-opacity-75 rounded-lg shadow-2xl lg:flex p-20">
           <img
             src={urlFor(author.authorImage).url()}
-            className="rounded-full w-32 h-32 lg:w-64 lg:h-64 mr-8"
+            className="rounded-full w-42 h-42 lg:w-74 lg:h-64 mr-8"
             alt={author.name}
           />
           <div className="text-lg flex flex-col justify-center">
