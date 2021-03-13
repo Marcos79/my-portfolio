@@ -57,6 +57,7 @@ const Project = () => {
               </p>
               <a href={project.link} rel="noopener noreferrer" target="_blank" className="text-red-500 font-bold hover:underline hover:text-red-400 text-xl">
                  👉 View The Project{" "}
+                 👉 View The code {" "}
               <span role="img" aria-label="right pointer"></span>
                </a>
             </div>
